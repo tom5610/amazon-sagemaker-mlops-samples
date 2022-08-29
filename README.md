@@ -1,1 +1,0 @@
-# amazon-sagemaker-mlops-samples
