@@ -555,7 +555,7 @@ Resources:
       SubnetId: !Ref PublicSubnet1
       InstanceType: !Ref 'EC2InstanceType'
       ImageId: 'amazonlinux-2-x86_64'
-       
+      ConnectionType: 'CONNECT_SSM'
   
   # DataScienceApp:
   #   Type: AWS::SageMaker::App
